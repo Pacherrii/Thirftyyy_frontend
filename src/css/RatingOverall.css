@@ -1,11 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Ubuntu:wght@700&display=swap');
 
+/*for BoxRatingProgress*/
+.box__rating__store
+{
+    width: 900px;
+    /*text-align: left;*/
+}
 .rating_progress
 {
-    width: 400px;
-    margin: 30px;
+    margin-top: 5px !important;
+    display: block;
+    margin: auto;
+    width: 738px;
+    /*margin: 30px;*/
 }
 
+.rating__star
+{
+    height: 33px;
+    display: flex !important;
+}
+
+.progress_of_rating
+{
+    display: block;
+    margin: auto;
+
+}
+
+.box_mean_rating
+{
+    display: flex;
+}
+
+.meanRating_txt
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: #705D96;
+}
+
+.meanRating_mean
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #705D96;
+    margin-left: 45px;
+}
+
+/*for OverallRating*/
 
 button 
 {
@@ -107,4 +152,74 @@ textarea {
 label
 {
     padding-bottom: 5px;
+}
+
+
+/*Then for BoxCommentRating*/
+
+.comment_rating
+{
+    display: block;
+}
+
+.box_AllComment
+{
+    width: 863px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box_comment
+{
+    display: flex !important;
+}
+
+.circle_comment
+{
+    background-color: grey;
+    background-image: url("../pics/imgtest.jpg");
+    background-size: cover;
+    width: 110px;
+    height: 110px;
+    border-radius: 75px;
+}
+
+.text_comment
+{
+    width: 632px;
+    display: block;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.User_comment
+{
+    font-size: 18px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #705D96;
+}
+
+.Star_comment
+{
+    margin-top: 5px;
+}
+.Write_comment
+{
+    font-size: 18px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #705D96;
+    margin-top: 5px;
+}
+
+.Date_comment
+{
+    text-align: left;
+    padding-top: 80px;
+}
+
+.dd_mm_yyyy
+{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 14px;
+    color: #8B8B8B;
 }

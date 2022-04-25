@@ -4,6 +4,8 @@ import NavBar from '../components/navbar.jsx';
 import userimg from "../pics/imgtest.jpg"
 import BoxRatingProgress from "../components/BoxRatingProgress"
 import Rectangle_title from "../pics/Rectangle_title.svg"
+import "../css/Overall.css"
+import BoxCommentRating from "../components/BoxCommentRating"
 
 const OverallRating = () => {
     return (
@@ -28,8 +30,11 @@ const OverallRating = () => {
                             <img variant="top" src={userimg} className="user_profile_pic"></img>
                         </div>
                         <BoxRatingProgress/>
+                        
                     </div>
+                    <hr class="style1"></hr>
                 </div>
+                <BoxCommentRating/>
             </div>
 
 

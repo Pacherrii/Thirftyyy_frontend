@@ -92,7 +92,7 @@ h5
 .Overall_item1
 {
     display: flex;
-    margin-bottom: 20px ;
+    margin-bottom: 25px ;
 }
 
 .Overall_top
@@ -155,4 +155,12 @@ h5
 .give_rating
 {
     margin-left: 7px;
+}
+
+hr { border-left: 0; }
+
+hr.style1
+{
+    margin-top: 25px;
+	border-top: 2px solid #392266;
 }

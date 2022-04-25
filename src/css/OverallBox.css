@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
+/*for BoxGoodOverall*/
+
 .card__good{
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
     /*margin: 20px;*/
@@ -55,6 +57,7 @@
 
 
 
+/*for BoxAuctionOverall*/
 
 .card__auction {
     margin: 18px;
@@ -191,7 +194,7 @@
 
 
 
-
+/*for BoxTradeOverall*/
 
 .card__trade {
     margin: 18px;
