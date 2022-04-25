@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body
+{
+    background-color: #F8F8F8;
+}
+
+.Overall_store
+{
+    width: minmax(1286px, auto) !important;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin: 10px 40px;
+  }
+  
+.item {
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 290px;
+    margin-bottom: 4px;
+    padding: 20px 20px;
+    
+}
+
+.Overall_top
+{
+    margin: 10px 40px;
+}
+
+.Overall_title
+{
+    color: #705D96;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+}
+  
+/*.content {
+    color: #242424;
+    /*ackground-color: #1bbefe;
+    background-color: red;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    border-radius: 2rem;
+}*/
+
+h5
+{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 60px;
+    color: #705D96;
+}
+
+.profile_pic
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 2rem;
+    margin-left: 60px;
+}
+
+.user_profile_pic
+{
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.Overall_item1
+{
+    display: flex;
+    margin-bottom: 20px ;
+}
+
+.Overall_top
+{
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.Overall_btn_top
+{
+    padding-top: 6px ;
+    display: flex;
+    position: absolute !important;
+    right: 80px !important;
+    justify-content: center;   
+    align-items: center;  
+}
+
+.go_overall
+{
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    color: #423F48;
+}
+
+.go_overall:hover {color:#9B84E8 ;}
+
+.go_rating
+{
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    color: #423F48;
+}
+
+.go_rating:hover {color:#9B84E8 ;}
+
+.profile_txt
+{
+    font-family: 'Ubuntu', sans-serif;
+    color: #705D96;
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 8px;
+    font-size: 18px;
+}
+
+.give_rating
+{
+    margin-left: 7px;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.rating_progress
+{
+    width: 400px;
+    margin: 30px;
+}
+
+
+button 
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.on 
+{
+    color: #FFC700;
+}
+
+.off 
+{
+    color: #ccc;
+}
+  
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+.button_send
+{
+    width: 140px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.btn__submit
+{
+    width: 140px;
+    height: 35px;
+    background-color: #9A82CA;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.btn__submit:hover
+{
+    background-color: #b7a6d9;
+}
+.btn__submit:active
+{
+    background-color: #9A82CA;
+    transform: translateY(0.5px);
+}
+
+.Rating_title
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    
+}
+
+.rating_txt
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+}
+
+.button_star
+{
+    width: 130px;
+    /*margin-left: 170px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Rating_comment
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+label
+{
+    padding-bottom: 5px;
+}

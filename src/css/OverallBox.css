@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.card__good{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    /*margin: 20px;*/
+    border-radius: 2rem !important;
+    background-color: #9B84E8 !important ;
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+    margin: 20px 60px;
+    /*transition: all ease 200ms !important;*/
+    border: none;
+}
+
+.card__title
+{
+    color: white !important;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600 !important;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    transition: all ease-in 100ms !important;
+    
+}
+.card__good:hover {
+    background-color: #9d80d2 !important;
+    opacity: 0.9;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 4px 2px #9b84e8a5 !important;
+  }
+
+.card-link
+{
+    text-decoration: none;
+}
+.card__text
+{
+    color: white !important;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase !important;
+}
+.user__img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+
+
+
+.card__auction {
+    margin: 18px;
+    
+    border-radius: 2rem !important;
+    background-color: #9B84E8  !important ;
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+    margin-left: 40px;
+    border: none !important;
+    box-shadow: none !important;
+}
+.card__text__trade
+{
+    color: white !important;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+}
+.auction__img {
+    height: 82%;
+    width: 100% !important;
+    object-fit: cover;
+    border: none ;
+}
+
+.container__text__bid{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.img__clock
+{
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+}
+.text__time
+{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.container__bid
+{
+    /* background-color: #9B84E8; */
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+    color: #3D3C40;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: -8px;
+
+}
+.bid__title
+{
+    font-weight: bold;
+}
+.container-btn-bid
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    /* width: fit-content; */
+    margin-left: 25px;
+    /* margin-right: 45px;
+    margin-top: 10px; */
+}
+.container__box__bid
+{
+    margin-left: 20px !important;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    width: fit-content;
+    /* align-items: center; */
+    margin-bottom: 20px;
+}
+.btn-bid
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #966DE8 ;
+    border: none ;
+    border-radius: 30px;
+    width: 130px;
+    height: 45px;
+
+}
+.btn-bid:hover
+{
+    background-color: #845ece;
+}
+.btn-bid:active
+{
+    background-color: #845ece;
+    transform: translateY(0.5px);
+}
+.btn-bid-detail
+{
+    color: #9B84E8;
+    font-size: 18px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #FFFCFC ;
+    border: 3px solid #9B84E8;
+    border-radius: 30px;
+    width: 135px;
+    height: 45px;
+
+}
+.btn-bid-detail:hover
+{
+    color: #FFFCFC;
+    background-color: #9B84E8;
+    border: none;
+}
+.btn-bid-detail:active
+{
+    background-color: #9B84E8;
+    transform: translateY(0.5px);
+}
+
+
+
+
+
+.card__trade {
+    margin: 18px;
+    border-radius: 37px !important;
+    background-color: #CCC1EA !important ;
+    width: 419px;
+    height: 317px;
+    overflow: hidden;
+    margin-left: 40px;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.card__title__trade
+{
+    color: white !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600 !important;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: -85px;
+    
+}
+.card__text__trade
+{
+    color: white !important;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+}
+.good__img {
+    height: 149px;
+    width: 107px !important;
+    object-fit: cover;
+    border-radius: 0 !important;
+    margin-right: 30px;
+    border: none !important;
+}
+
+.circle
+{
+    background-color: grey;
+    background-image: url("../pics/imgtest.jpg");
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+    border-radius: 25px;
+}
+.container__detail {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    width: fit-content;
+}
+.container__img
+{
+    display: flex;
+    width: fit-content;
+    margin-left: 70px;    
+
+}
+.btn-detail
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #F0A7C7 ;
+    border: none ;
+    border-radius: 20px;
+    width: 203px;
+    height: 41px;
+
+}
+.btn-detail:hover
+{
+    background-color: #dd8fb1;
+}
+.btn-detail:active
+{
+    background-color: #dd8fb1;
+    transform: translateY(0.5px);
+}
+
+.container__box__trade
+{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: fit-content;
+    align-items: center;
+    margin-left: 20px;
+}
