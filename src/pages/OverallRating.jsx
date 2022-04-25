@@ -20,7 +20,7 @@ const OverallRating = () => {
                         <div className="Overall_btn_top">
                             <Link to='/Overall'><button type="botton" className="go_overall">overall</button></Link>
                             |
-                            <Link to='/Overallrating'><button type="botton" className="go_rating">Rating</button></Link>
+                            <Link to='/Overallrating'><button type="botton" className="go_rating">rating</button></Link>
                     
                         </div>
                     </div>
