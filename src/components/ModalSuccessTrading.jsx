@@ -14,15 +14,18 @@ const ModalSuccessTrading = (props) => {
             aria-labelledby="contained-modal-title-vcenter"
             backdrop="static"
             keyboard={false}
+            value={false}
             centered
         >
             <Modal.Body>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button onClick={props.onHide} type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
                 <div className="icon_show">
                     <img src={successIcon} width="150" height="150"></img>
                 </div>
 
+'
+'
                 <div className="txt_success">
                     แลกสินค้าเรียบร้อยแล้ว !
                 </div>

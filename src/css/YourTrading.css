@@ -1,0 +1,272 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+body
+{
+    background-color: #F8F8F8 !important;
+}
+
+.contain__box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.toggle__box
+{
+    display: block;
+    flex-direction: column;
+}
+.btn__name
+{
+    color: #423F48;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    width: 421px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border: 2px solid #CBCBCB;
+    text-align: center;
+    /*padding-left: 40px;*/
+}
+.btn__name:hover
+{
+    width: 421px;
+    height: 64px;
+    border: 2px solid #9B84E8;
+    border-left: 12px solid #9B84E8;
+    border-right: 12px solid #9B84E8;
+    text-align: center;
+}
+.btn__name:active
+{
+    transform: translateY(0.5px);
+    border: 2px solid #9B84E8;
+}
+
+.box__cardtrade
+{
+    width: 704px;
+    height: 719px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 3px #9b84e85a;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 50px;
+    
+}
+.box__pictrade
+{
+    width: 633px;
+    height: 362px;
+    background-color: #F6F6F6;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+
+}
+.line__pictrade
+{
+    width: 5px;
+    height: 362px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 70%;
+}
+.user__circle
+{
+    width: 65px;
+    height: 65px;
+    background-color: #C4C4C4;
+    border-radius: 32px;
+}
+.user__circle .usertrade__img
+{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+.box__user
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    /* background-color: yellowgreen; */
+}
+
+.user__text
+{
+    color: #423F48;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    margin-left: 20px;
+    
+}
+.box__carddetail
+{
+    
+    width: 413px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text__carddetail
+{
+    color: #423F48;
+    font-size: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.box__wait
+{
+    width: 704px;
+    height: 67px;
+    background-color: #D9D9D9; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* .box__btn
+{
+    background-color: yellowgreen;
+    height: fit-content;
+} */
+.text__wait
+{
+    color: #423F48;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 22px;
+    margin-left: 8px;
+}
+.fi-rr-user-time
+{
+    color: #423F48 !important;
+    font-size: 22px;
+}
+.box__accept
+{
+    width: 704px;
+    height: 67px;
+    background-color: #65E87A; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text__accept
+{
+    color: #FFFFFF;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 22px;
+    margin-left: 8px;
+}
+.fi-rr-checkbox
+{
+    color: #FFFFFF !important;
+    font-size: 22px;
+}
+.img__cardtrade
+{
+    width: 217px;
+    height: 298px;
+    background-color: #C4C4C4;
+    border-radius: 17px;
+    margin-left: 110px;
+    margin-right: 120px;
+    
+}
+.img__cardtrade .selected
+{
+    width: 217px !important;
+    height: 298px;
+    object-fit: cover;
+    border-radius: 17px;
+}
+.thumbs__yourtrade
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* margin-left: 20px; */
+    /* margin-top: 200px; */
+    
+}
+
+.thumbs__yourtrade .img-thumbstrade
+{
+    width: 140px;
+    height: 177px;
+    object-fit: cover;
+    
+}
+.slider
+{
+    position: relative;
+    /* background-color: yellowgreen; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 362px;
+    width: 200px;
+
+}   
+.fi-rr-angle-up
+{
+    
+    position: absolute;
+    background-color: #9b84e881;
+    width: 185px;
+    text-align: center;
+    font-size: 25px;
+    top: 0px;
+    left: 0px;
+    color: #5e4c99;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+}
+.fi-rr-angle-down
+{
+    position: absolute;
+    background-color: #9b84e881;
+    width: 185px;
+    text-align: center;
+    font-size: 25px;
+    bottom: 0px;
+    left: 0px;
+    color: #5e4c99;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+}
+
+.text__mytrading
+{
+    color: #9A82CA;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.confirmBOX
+{
+    width: 704px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

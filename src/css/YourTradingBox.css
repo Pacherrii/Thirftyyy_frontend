@@ -18,10 +18,6 @@ body
     background-color: #F8F8F8 ;
 }
   
-/*.page-header {
-    grid-area: header;
-}*/
-  
 .page-rightbar {
     grid-area: rightbar;
 }
@@ -117,11 +113,6 @@ body
 {
     height: 105px;
     display: flex;
-}
-
-.confirmBOX
-{
-    margin-inline-start: 820px;
 }
 
 .Yes_icon

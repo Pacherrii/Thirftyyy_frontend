@@ -5,7 +5,13 @@ import "../css/YourTradingModal.css"
 import ModalSuccessTrading from "./ModalSuccessTrading"
 
 const ModalYourTrading = (props) => {
-    const [successShow, setsuccessShow] = React.useState(false);
+    const [successShow, setsuccessShow] = useState(false);
+    const handleClickUserDetail = () => {
+        console.log(props)
+        this.props.onHide();
+        //setsuccessShow(true);
+        }
+
     return (
         <Modal
             {...props}
@@ -24,9 +30,9 @@ const ModalYourTrading = (props) => {
                     </div>
                     <div className="button_trade">
                         <div className="button_trade">
-                            <button as="input" type="button" className="btn__yes" onClick={() =>setsuccessShow(true)} >ยืนยัน</button>
+                            <button as="input" type="button" className="btn__yes" onClick={() =>{ setsuccessShow(true);handleClickUserDetail()}} >ยืนยัน</button>
                             <ModalSuccessTrading show = {successShow}
-                            onHide = {() => setsuccessShow(false)}/>
+                            onHide = {() => setsuccessShow(false)} restorFocus={true}/>
                             <button onClick={props.onHide} className="btn__no">ยกเลิก</button>
                         </div>
                     </div>
